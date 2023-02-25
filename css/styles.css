@@ -82,6 +82,12 @@ p {
   
 }
 
+.social-icon {
+  width: 21px;
+  height: 21px;
+  margin-left: 20px;
+}
+
 
 #title {
   background-color: #080808;
@@ -397,10 +403,6 @@ fieldset {
 
 /* Footer Section */
 
-
-.social-icon {
-  margin: 20px 10px;
-}
 
 @media (max-width: 1028px) {
 
