@@ -74,6 +74,8 @@ p {
 
 .nav-item {
   padding: 0 18px;
+  vertical-align: middle;
+
 }
 
 .nav-link {
