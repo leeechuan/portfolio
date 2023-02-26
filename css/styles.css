@@ -90,6 +90,21 @@ p {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 991px) {
+
+  .navbar-nav{
+    display: block !important;
+
+  }
+  .social-icon{
+    display: inline-block !important;
+    -webkit-box-orient: horizontal;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 35px
+  }
+}
+
 
 #title {
   background-color: #080808;
