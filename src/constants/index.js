@@ -159,8 +159,6 @@ const experiences = [
     points: [
       "Development of commercial grade web and mobile applications using Outsystems and Javascript.",
       "Cross collaboration with other functional teams, to create an AI powered solution for internal use",
-      "Implementation of analytics",
-      "Implementation of braze advertising",
       "Engaging in backend development tasks including caching mechanisms and cart checkout functionalities."
     ],
   },
