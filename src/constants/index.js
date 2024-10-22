@@ -32,6 +32,7 @@ import {
   python,
   expressjs,
   ripplegym,
+  yellowribbon,
   kopisiudai,
   projectbnb,
   firstportfolio,
@@ -252,6 +253,27 @@ const projects = [
     ],
     image: ripplegym,
     source_code_link: "https://theripplegym.vercel.app/",
+  },
+  {
+    name: "Yellow Ribbon",
+    description:
+      "An AI powered application, providing end to end job support and mental wellness checks for ex-offenders in Singapore. This Hackathon Project came in second place out of 72 global teams and raised a total of USD $5,000 for Yellow Ribbon.",
+    tags: [
+      {
+        name: "AWS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hackathon",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yellowribbon,
+    source_code_link: "https://taikai.network/outsystems/hackathons/build-for-the-future-2024/projects/clzku777u0apawx01rlqib71a/idea",
   },
   {
     name: "Kopi",

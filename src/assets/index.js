@@ -41,10 +41,11 @@ import temus from "./company/temus.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import ripplegym from "./ripplegym.png"
-import kopisiudai from "./kopisiudai.png"
-import projectbnb from "./projectbnb.png"
-import firstportfolio from "./firstportfolio.png"
+import ripplegym from "./ripplegym.png";
+import yellowribbon from "./yellowribbon.png";
+import kopisiudai from "./kopisiudai.png";
+import projectbnb from "./projectbnb.png";
+import firstportfolio from "./firstportfolio.png";
 
 export {
   logo,
@@ -88,6 +89,7 @@ export {
   jobit,
   tripguide,
   ripplegym,
+  yellowribbon,
   kopisiudai,
   projectbnb,
   firstportfolio,
