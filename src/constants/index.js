@@ -152,15 +152,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company_name: "Temus",
     icon: temus,
     iconBg: "#383E56",
-    date: "April 2023 - Present",
+    date: "2023 - 2024",
     points: [
       "Development of commercial grade web and mobile applications using Outsystems and Javascript.",
       "Cross collaboration with other functional teams, to create an AI powered solution for internal use",
       "Engaging in backend development tasks including caching mechanisms and cart checkout functionalities."
+    ],
+  },  {
+    title: "Software Engineer L2",
+    company_name: "Temus",
+    icon: temus,
+    iconBg: "#383E56",
+    date: "2024 - Present",
+    points: [
+      "Provided technical solutions with different stakeholders and third party integrations."
     ],
   },
   

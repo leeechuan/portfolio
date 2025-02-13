@@ -50,7 +50,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hi there! I'm a software developer from Singapore, with experience in both web
+        Hi there! I'm a software engineer from Singapore, with experience in both web
         and mobile full stack development. With a penchant for problem-solving, 
         I enjoy tackling challenges and finding creative solutions. I also have
         a strong passion for technology and enjoy learning new skills and languages.
