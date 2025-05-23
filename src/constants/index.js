@@ -33,6 +33,7 @@ import {
   expressjs,
   ripplegym,
   yellowribbon,
+  emberlighttales,
   kopisiudai,
   projectbnb,
   firstportfolio,
@@ -283,6 +284,27 @@ const projects = [
     ],
     image: yellowribbon,
     source_code_link: "https://taikai.network/outsystems/hackathons/build-for-the-future-2024/projects/clzku777u0apawx01rlqib71a/idea",
+  },
+  {
+    name: "Emberlight Tales",
+    description:
+      "A 2D top-down action RPG built from scratch in Java. Features A* pathfinding, responsive combat, farming systems, dynamic day/night cycles, and over 30 interactable NPCs across a world of towns, dungeons, and caves.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "custom-engine",
+        color: "green-text-gradient",
+      },
+      {
+        name: "game-dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emberlighttales,
+    source_code_link: "https://github.com/leeechuan/emberlighttales",
   },
   {
     name: "Kopi",

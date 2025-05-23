@@ -43,6 +43,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ripplegym from "./ripplegym.png";
 import yellowribbon from "./yellowribbon.png";
+import emberlighttales from "./emberlighttales.png";
 import kopisiudai from "./kopisiudai.png";
 import projectbnb from "./projectbnb.png";
 import firstportfolio from "./firstportfolio.png";
@@ -90,6 +91,7 @@ export {
   tripguide,
   ripplegym,
   yellowribbon,
+  emberlighttales,
   kopisiudai,
   projectbnb,
   firstportfolio,
