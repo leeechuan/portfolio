@@ -17,6 +17,7 @@
     "@splinetool/runtime": "^1.0.55",
     "framer-motion": "^11.0.6",
     "gsap": "^3.12.5",
+    "ogl": "^1.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.212",
