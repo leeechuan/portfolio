@@ -24,6 +24,7 @@ import {
   tesla,
   shopify,
   temus,
+  deloitte,
   carrent,
   jobit,
   tripguide,
@@ -153,6 +154,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Associate Tech Lead | Consultant",
+    company_name: "Deloitte Singapore",
+    icon: deloitte,
+    iconBg: "#383E56",
+    date: "2025 - Present",
+    points: [
+      "Production support and enhancements on a legacy project.",
+      "Leads a team of developers, conducting code reviews and bridging techno functional gap.",
+      "Engages clients with technical solutioning and CICD approaches."
+    ],
+  },
+  {
+    title: "Software Engineer L2",
+    company_name: "Temus",
+    icon: temus,
+    iconBg: "#383E56",
+    date: "2024 - 2025",
+    points: [
+      "Provided technical solutions with different stakeholders and third party integrations."
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Temus",
     icon: temus,
@@ -163,16 +186,8 @@ const experiences = [
       "Cross collaboration with other functional teams, to create an AI powered solution for internal use",
       "Engaging in backend development tasks including caching mechanisms and cart checkout functionalities."
     ],
-  },  {
-    title: "Software Engineer L2",
-    company_name: "Temus",
-    icon: temus,
-    iconBg: "#383E56",
-    date: "2024 - Present",
-    points: [
-      "Provided technical solutions with different stakeholders and third party integrations."
-    ],
   },
+
   
   // {
   //   title: "React Native Developer",
