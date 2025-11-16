@@ -172,17 +172,18 @@ const experiences = [
     iconBg: "#383E56",
     date: "2024 - 2025",
     points: [
-      "Provided technical solutions with different stakeholders and third party integrations."
+      "Engineered and delivered technical solutions across multiple stakeholders and third-party integrations, reducing manual processes and enhancing system interoperability.",
+      "Spearheaded the development of an internal developer tool that reduced commit conflicts and dependency errors by 40%, increasing team efficiency."
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer L1",
     company_name: "Temus",
     icon: temus,
     iconBg: "#383E56",
     date: "2023 - 2024",
     points: [
-      "Development of commercial grade web and mobile applications using Outsystems and Javascript.",
+      "Development of commercial grade web applications using HTML, CSS and Javascript.",
       "Cross collaboration with other functional teams, to create an AI powered solution for internal use",
       "Engaging in backend development tasks including caching mechanisms and cart checkout functionalities."
     ],

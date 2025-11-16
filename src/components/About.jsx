@@ -50,18 +50,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hi there! I'm a software engineer from Singapore, with experience in both web
-        and mobile full stack development. With a penchant for problem-solving, 
-        I enjoy tackling challenges and finding creative solutions. I also have
-        a strong passion for technology and enjoy learning new skills and languages.
-        I'm always eager to collaborate with others and contribute to meaningful projects!
+        Hi there! I'm a full stack software engineer from Singapore. With a penchant 
+        for problem-solving, I enjoy tackling challenges and finding creative solutions. 
+        I also have a strong passion for technology and enjoy learning new skills and 
+        languages. I'm always eager to collaborate with others and contribute to 
+        meaningful projects, so do feel free to contact me via any of my socials!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
