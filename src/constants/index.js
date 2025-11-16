@@ -328,7 +328,7 @@ const projects = [
       "A project done as part of Build for the Future Hackathon 2023. The application came in 3rd place for demos and ranked 13th overall out of 67 teams.",
     tags: [
       {
-        name: "Non-Profit",
+        name: "non-profit",
         color: "blue-text-gradient",
       },
       {
@@ -367,7 +367,7 @@ const projects = [
       "Web application for families to keep track of their events, finances, shopping wish lists. Also features a back office, data archival and data isolation.",
     tags: [
       {
-        name: "PWA",
+        name: "pwa",
         color: "blue-text-gradient",
       },
     ],
