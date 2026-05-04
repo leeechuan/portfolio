@@ -34,7 +34,6 @@ const KeyboardAnimation = () => {
           key: char,
           bubbles: true
         });
-        console.log(char)
         document.dispatchEvent(event);
       }
       
@@ -46,8 +45,6 @@ const KeyboardAnimation = () => {
           currentIndex++;
           if (currentIndex === targetString.length) {
             clearInterval(keyPressInterval);
-            console.log(currentIndex)
-      
           }
         }, 300); // Each keypress interval
       }

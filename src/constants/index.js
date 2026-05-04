@@ -1,45 +1,29 @@
 import {
-  mobile,
-  backend,
-  creator,
   webdev,
   mobiledev,
   architecture,
   odc,
-  web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  temus,
-  deloitte,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-  outsystems,
   python,
   expressjs,
+  temus,
+  deloitte,
   ripplegym,
   yellowribbon,
   emberlighttales,
   kopisiudai,
-  projectbnb,
+  nusmarket,
   firstportfolio,
   langchain,
-  nextjs,
   spline,
 } from "../assets";
 
@@ -134,10 +118,6 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
-  // {
-  //   name: "outsystems",
-  //   icon: outsystems,
-  // },
   {
     name: "python",
     icon: python,
@@ -187,48 +167,7 @@ const experiences = [
       "Cross collaboration with other functional teams, to create an AI powered solution for internal use",
       "Engaging in backend development tasks including caching mechanisms and cart checkout functionalities."
     ],
-  },
-
-  
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  }
 ];
 
 const testimonials = [
@@ -260,27 +199,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ripple",
-    description:
-      "Reactive web gym application built with MERN stack. Features user authentication, data archival of weekly workouts and content management for a local product listing page.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ripplegym,
-    source_code_link: "https://theripplegym.vercel.app/",
-  },
-  {
     name: "Yellow Ribbon",
     description:
       "An AI powered application, providing end to end job support and mental wellness checks for ex-offenders in Singapore. This Hackathon Project came in second place out of 72 global teams and raised a total of USD $5,000 for Yellow Ribbon.",
@@ -299,7 +217,7 @@ const projects = [
       },
     ],
     image: yellowribbon,
-    source_code_link: "https://taikai.network/outsystems/hackathons/build-for-the-future-2024/projects/clzku777u0apawx01rlqib71a/idea",
+    source_code_link: "https://www.youtube.com/watch?v=GXJX09D-Yds",
   },
   {
     name: "Emberlight Tales",
@@ -323,6 +241,48 @@ const projects = [
     source_code_link: "https://github.com/leeechuan/emberlighttales",
   },
   {
+    name: "NUS Market",
+    description:
+      "A student-centric marketplace for the NUS community. Features a live area activity heatmap, Stripe Integration, and Ollama for local LLM use cases.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ollama",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nusmarket,
+    source_code_link: "https://www.youtube.com/watch?v=1jPtYttyQcQ",
+  },
+  {
+    name: "Ripple",
+    description:
+      "Reactive web gym application built with MERN stack. Features user authentication, data archival of weekly workouts and content management for a local product listing page.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ripplegym,
+    source_code_link: "https://theripplegym.vercel.app/",
+  },
+  {
     name: "Kopi",
     description:
       "A project done as part of Build for the Future Hackathon 2023. The application came in 3rd place for demos and ranked 13th overall out of 67 teams.",
@@ -341,7 +301,7 @@ const projects = [
       },
     ],
     image: kopisiudai,
-    source_code_link: "https://www.youtube.com/watch?v=jSQqT_oC680&t=2s",
+    source_code_link: "https://www.youtube.com/watch?v=jSQqT_oC680&",
   },
   {
     name: "First Portfolio",
@@ -360,19 +320,6 @@ const projects = [
     ],
     image: firstportfolio,
     source_code_link: "https://leeechuan.github.io/portfolio-old/",
-  },
-  {
-    name: "Budget&Beyond",
-    description:
-      "Web application for families to keep track of their events, finances, shopping wish lists. Also features a back office, data archival and data isolation.",
-    tags: [
-      {
-        name: "pwa",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: projectbnb,
-    source_code_link: "https://docs.google.com/presentation/d/1Y-_3-nZGzg2PMqXmdrh0lcgbEA1ylEFA/edit?usp=sharing&ouid=104002942782337411474&rtpof=true&sd=true",
   },
 ];
 

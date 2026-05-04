@@ -7,10 +7,10 @@ import github from "./github.png";
 import link from "./link.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
-import webdev from "./webdev.png";
-import mobiledev from "./mobiledev.png";
-import architecture from "./architecture.png";
-import odc from "./odc.png"
+import webdev from "./webdev.webp";
+import mobiledev from "./mobiledev.webp";
+import architecture from "./architecture.webp";
+import odc from "./odc.webp"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,12 +25,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import outsystems from "./tech/outsystems.png";
-import python from "./tech/python.png";
-import expressjs from "./tech/expressjs.png"
-import langchain from "./tech/langchain.png"
-import nextjs from "./tech/nextjs.png"
-import spline from "./tech/spline.png"
+import python from "./tech/python.webp";
+import expressjs from "./tech/expressjs.webp"
+import langchain from "./tech/langchain.webp"
+import nextjs from "./tech/nextjs.webp"
+import spline from "./tech/spline.webp"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,13 +40,13 @@ import deloitte from "./company/deloitte.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import ripplegym from "./ripplegym.png";
-import yellowribbon from "./yellowribbon.png";
-import emberlighttales from "./emberlighttales.png";
-import kopisiudai from "./kopisiudai.png";
-import projectbnb from "./projectbnb.png";
-import firstportfolio from "./firstportfolio.png";
+import tripguide from "./tripguide.webp";
+import ripplegym from "./ripplegym.webp";
+import yellowribbon from "./yellowribbon.webp";
+import emberlighttales from "./emberlighttales.webp";
+import kopisiudai from "./kopisiudai.webp";
+import nusmarket from "./nusmarket.webp";
+import firstportfolio from "./firstportfolio.webp";
 
 export {
   logo,
@@ -76,7 +75,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  outsystems,
   python,
   expressjs,
   langchain,
@@ -95,6 +93,6 @@ export {
   yellowribbon,
   emberlighttales,
   kopisiudai,
-  projectbnb,
+  nusmarket,
   firstportfolio,
 };

@@ -23,7 +23,7 @@ uniform vec2 uMouse;
 
 #define PI 3.1415926538
 
-const int u_line_count = 40;
+const int u_line_count = 25;
 const float u_line_width = 7.0;
 const float u_line_blur = 10.0;
 
@@ -132,6 +132,14 @@ const Threads = ({
     if (!containerRef.current) return;
     const container = containerRef.current;
 
+    // Pause animation when not in viewport
+    let isPaused = false;
+    const visibilityObserver = new IntersectionObserver(
+      ([entry]) => { isPaused = !entry.isIntersecting; },
+      { threshold: 0.05 }
+    );
+    visibilityObserver.observe(container);
+
     const renderer = new Renderer({ alpha: true });
     const gl = renderer.gl;
     gl.clearColor(0, 0, 0, 0);
@@ -189,6 +197,10 @@ const Threads = ({
     }
 
     function update(t) {
+      if (isPaused) {
+        animationFrameId.current = requestAnimationFrame(update);
+        return;
+      }
       if (enableMouseInteraction) {
         const smoothing = 0.05;
         currentMouse[0] += smoothing * (targetMouse[0] - currentMouse[0]);
@@ -209,6 +221,7 @@ const Threads = ({
     return () => {
       if (animationFrameId.current)
         cancelAnimationFrame(animationFrameId.current);
+      visibilityObserver.disconnect();
       window.removeEventListener("resize", resize);
 
       if (enableMouseInteraction) {
